@@ -506,7 +506,7 @@ public class Car : IEquatable<Car>
 }
 ```
 
-## Ficha de Trabalho Nº1
+# Ficha de Trabalho Nº1
 
 1.  Escreva um programa em C# que leia 10 números inteiros a partir do teclado e escreva no ecrã a soma e a média dessa sequência de entrada.
 
