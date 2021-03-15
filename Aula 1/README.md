@@ -196,7 +196,7 @@ var names = new List<string> { "João", "Ana", "Filipe" };
 // names.Remove("Ana");
 
 // Pesquisar e classificar listas
-// var index = names.IndexOf("Felipe");
+// var index = names.IndexOf("Filipe");
 // if (index != -1)
 //   Console.WriteLine($"The name {names[index]} is at index {index}");
 // var notFound = names.IndexOf("Not Found");
