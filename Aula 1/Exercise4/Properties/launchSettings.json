@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Exercise4": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Filipa\\source\\repos\\All\\LoremIpsum.txt"
+    }
+  }
+}

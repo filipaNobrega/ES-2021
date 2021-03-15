@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Exercise7": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Filipa\\source\\repos\\All\\Shapes.txt"
+    }
+  }
+}
