@@ -264,7 +264,7 @@ public class SalesManagerTests
      public interface ILogger
      {
           void Log(LogLevel logLevel, Exception exception);
-          void Log(LogLevel logLevel, string message, params object[] params);
+          void Log(LogLevel logLevel, string message, params object[] args);
           ...
      }
      ```
