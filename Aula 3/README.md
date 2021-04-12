@@ -1,6 +1,6 @@
 # Ficha de Trabalho Nº3
 
-1.  Escreva um programa em C# que calcula a tabuada a de qualquer número entre 1 e 10. O resultado deverá ter a seguinte forma:
+1.  Escreva um programa em C# que calcula a tabuada de qualquer número entre 1 e 10. O resultado deverá ter a seguinte forma:
 
         7 * 1 = 7
         ...
