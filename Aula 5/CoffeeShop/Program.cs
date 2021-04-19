@@ -1,4 +1,5 @@
 ﻿using System;
+using CoffeeShop.Decorators;
 
 namespace CoffeeShop
 {
@@ -39,25 +40,29 @@ namespace CoffeeShop
             Console.WriteLine("2- Soy"); //Soy - 0.15
             Console.WriteLine("3- Whip"); //Whip - 0.10
             Console.WriteLine("0- No more");
-            Console.Write("Please select your condiment: ");
 
             int condiment;
             do
             {
+                Console.Write("Please select your condiment: ");
                 while (!int.TryParse(Console.ReadLine(), out condiment))
                 {
                     Console.WriteLine("!No condiment available for your selection");
                 }
+
                 switch (condiment)
                 {
                     case 1:
-                        //Add mocha
+                        coffee = new MochaDecorator(coffee);
                         break;
                     case 2:
-                        //Add Soy
+                        coffee = new SoyDecorator(coffee);
                         break;
                     case 3:
-                        //Add Whip
+                        coffee = new WhipDecorator(coffee);
+                        break;
+                    default:
+                        Console.WriteLine($"!Condiment '{condiment}' does not exist");
                         break;
                 }
             } while (condiment != 0);
