@@ -20,7 +20,7 @@ Implemente os seguintes predicados e operadores:
 string s1 = "batata";
 string s2 = "oo";
 string s3 = "xyz";
-Validator validator = new Or(new And(new LengthGreaterThan(5), new LengthLesserThan(8)), new LengthEqualTo(2));
+IValidator validator = new Or(new And(new LengthGreaterThan(5), new LengthLesserThan(8)), new LengthEqualTo(2));
 bool b1 = validator.IsValid(s1); // output: true
 bool b2 = validator.IsValid(s2); // output: true
 bool b3 = validator.IsValid(s3); // output: false
